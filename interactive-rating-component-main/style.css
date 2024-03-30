@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main {
+  width: 350px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 15px;
+  padding: 15px 5px;
+}
+
+.icon {
+  background-color: hsl(212, 16%, 21%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 15px;
+}
+
+.star {
+  margin-top: 10px;
+}
+
+.text {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 15px;
+}
+
+.text h1 {
+  color: hsl(0, 0%, 100%);
+}
+
+.text p {
+  color: hsl(217, 12%, 63%);
+}
+
+.btn {
+  background-color: hsl(212, 16%, 21%);
+  color: hsl(217, 12%, 63%);
+  height: 45px;
+  width: 45px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.btn:active,
+.btn:focus {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(212, 16%, 21%);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+#submit {
+  background-color: hsl(25, 97%, 53%);
+  width: 300px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  margin-left: 5px;
+  margin-top: 10px;
+  padding: 10px 5px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+.selP {
+  background-color: hsl(212, 16%, 21%);
+  color: hsl(25, 97%, 53%);
+  padding: 5px 15px;
+  border-radius: 15px;
+  width: 170px;
+  margin-left: 80px;
+}
+
+.svgSu {
+  margin-left: 90px;
+}
+
+.h1Su {
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  font-size: 30px;
+  margin-left: 5px;
+}
+.pSu {
+  color: hsl(217, 12%, 63%);
+  text-align: center;
+}
+
+@media screen and (min-width: 375px) and(max-width: 678px) {
+  .main {
+    width: 80%;
+  }
+}
